@@ -1,0 +1,36 @@
+body {
+  overflow: hidden;
+}
+
+#background-container {
+  height: 100vh;
+  background-image: url("assets/img/landing-0.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#glenn-bernard {
+  position: fixed;
+  top: 35%;
+  right: 0;
+  transform: translateX(-3%);
+  width: 1678px;
+  height: 251px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /* padding-right: 50px; */
+  z-index: 1;
+}
+
+#name {
+  position: relative;
+  color: #ffffff;
+  font-family: "Tilt Warp", sans-serif;
+  font-size: 250px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  z-index: 2;
+}
